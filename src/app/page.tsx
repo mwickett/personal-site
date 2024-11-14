@@ -1,7 +1,7 @@
-import Header from '@/components/Header';
-import InfoCard from '@/components/InfoCard';
-import SocialLinks from '@/components/SocialLinks';
-import ProjectLinks from '@/components/ProjectLinks';
+import Header from "@/components/Header";
+import InfoCard from "@/components/InfoCard";
+import SocialLinks from "@/components/SocialLinks";
+import ProjectLinks from "@/components/ProjectLinks";
 
 export default function Home() {
   return (
@@ -12,12 +12,20 @@ export default function Home() {
         <section className="mb-16">
           <div className="grid gap-6 md:grid-cols-2">
             <InfoCard
-              title="About"
+              title="👋 About Me"
               content="I'm curious about everything and love to learn new things. When I'm not doing family things with my wife and daughter, or working, then you'll find me climbing rocks 🧗‍♂️, reading 📚 or cooking 🍳."
             />
             <InfoCard
-              title="Current Focus"
-              content="I'm doing Product + Growth work at Clerk where we're building an incredible user management platform to enable and empower developers and builders to do amazing things."
+              title="🔍 Current Focus"
+              content="I'm doing Product + Growth work at Clerk where we're building an incredible user management platform to empower developers and builders to do amazing things."
+            />
+            <InfoCard
+              title="⏳ Previously..."
+              content="I started as frontend engineer on the Web Engineering team at HashiCorp and was leading the team as Director of Engineering before I left in 2024."
+            />
+            <InfoCard
+              title="🛠️ Side projects"
+              content="I'm working on Blitzer (link below) in my spare time, and having a lot of fun with it. I also love to play music, mainly bass and trumpet."
             />
           </div>
         </section>
